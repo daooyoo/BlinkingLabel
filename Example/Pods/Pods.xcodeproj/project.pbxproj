@@ -16,7 +16,7 @@
 		B2831D6CA532282BF6D583A28C646EDA /* BlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3989AF9AED092AE79557A110DF4D23B /* BlinkingLabel-dummy.m */; };
 		CB29B71362AB16CD544B1409E3BB35FC /* BlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19B43A07FE22F16252A963C68B37B978 /* BlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE15BF1858AF6F5DBEC69FAE3D0D106D /* Pods-BlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEC26AFBCE9BA1C52D30726CBD89AB /* Pods-BlinkingLabel_Example-dummy.m */; };
-		DC0401A0A2659066D0E78A454AEE57EF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A64504B47076B1F6E9EE2EEB746E2 /* ReplaceMe.swift */; };
+		DC0401A0A2659066D0E78A454AEE57EF /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A64504B47076B1F6E9EE2EEB746E2 /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,7 @@
 		940ABB0142523B72579DE87D4E6BA38F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A02705FA24392F604E56321CC427A5BB /* Pods-BlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A22A64504B47076B1F6E9EE2EEB746E2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BlinkingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A22A64504B47076B1F6E9EE2EEB746E2 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = BlinkingLabel/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
 		A2A7022184E0CF494DC493E57A1EDDC6 /* Pods-BlinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		A3989AF9AED092AE79557A110DF4D23B /* BlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		A3EE61CE3CF9708FC47C5C5FC878D8DE /* Pods-BlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		7944E17566A3D54A54418B729ADD84A4 /* BlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				A22A64504B47076B1F6E9EE2EEB746E2 /* ReplaceMe.swift */,
+				A22A64504B47076B1F6E9EE2EEB746E2 /* BlinkingLabel.swift */,
 				D4E5F7DF74413FBD06D22CBB700A0E5B /* Pod */,
 				0D899D7E4BE99C90F7660D5D40901B93 /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					C7FA1474C1351BB7629228A94732F22D = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2831D6CA532282BF6D583A28C646EDA /* BlinkingLabel-dummy.m in Sources */,
-				DC0401A0A2659066D0E78A454AEE57EF /* ReplaceMe.swift in Sources */,
+				DC0401A0A2659066D0E78A454AEE57EF /* BlinkingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +465,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -526,7 +531,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
